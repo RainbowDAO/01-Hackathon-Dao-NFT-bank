@@ -17,6 +17,7 @@ Rainbowcity Foundation
 ### Submission links
 
 - Website: http://nftbank.rainbowdao.io/
+- Hackathon: https://www.rainbowdao.io/Hackathon
 - GitHub repository :https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank
 - Smart contracts (GitHub): https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/contract
 - Frontend code (GitHub):https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/Front-end%20file
