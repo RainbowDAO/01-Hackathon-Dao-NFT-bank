@@ -44,6 +44,10 @@ Test/faucet: https://gitter.im/kovan-testnet/faucet#
 
 ## address ##
 
+####  ERC20ORCHESTRATOR ####
+
+0xcDee16288b9F2a811F02BA380956a4dC4B0A0105
+
 #### RBBANKORCHESTRATOR ####
 
 0x0C2636E6073745a1FF616D846107E0cEF0f49DA3
