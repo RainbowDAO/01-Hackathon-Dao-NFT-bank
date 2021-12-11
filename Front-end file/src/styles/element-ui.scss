@@ -1,0 +1,315 @@
+// cover some element-ui styles
+/**
+Scroll bar style reset
+ */
+.sidebar-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #eaeaea;
+  border-radius: 3px;
+}
+//end
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+.el-button--primary{
+  border-color: white;
+}
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  line-height: 17px;
+  font-weight: normal;
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    min-width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+// el-table
+.el-table{
+  box-shadow: 0px 0px 16px 3px rgba(48,48,77,0.05);
+  margin-bottom: 20px;
+
+  tr{
+    &:nth-child(2n){
+      background: #f8f9ff;
+    }
+  }
+   td{
+    padding: 8px 0!important;
+  }
+  .cell{
+    font-weight: bold!important;
+    font-size: 12px;
+    line-height: 32px;
+  }
+  //&::-webkit-scrollbar {
+  //  width: 4px;
+  //}
+}
+.el-table thead tr,.el-table__header-wrapper,.el-table__header{
+  background: linear-gradient(90deg,#12c2e9 0%, #c471ed 64%, #f64f59 100%);
+  .el-table th, .el-table tr{
+    background: rgba(0,0,0,0)!important;
+    .cell{
+      color: white!important;
+    }
+  }
+}
+.el-table th>.cell{
+  font-size: 10px;
+  line-height: 18px;
+  padding: 0 4px;
+}
+.v-modal {
+  z-index: 2000!important;
+}
+.el-table thead.is-group th{
+  background: rgba(0,0,0,0);
+}
+.el-table th{
+  background: rgba(0,0,0,0)!important;
+  color: white;
+  height: 42px;
+  border-right:none;
+}
+.el-table tr{
+  background: rgba(0,0,0,0)!important;
+  height: 42px;
+  border-right:none;
+}
+.el-table th:first-child{
+  border-right: 1px solid #EBEEF5
+}
+.el-table--border, .el-table--group {
+ border: none;
+}
+.el-table--border td{
+  border-right: 0;
+}
+.el-table--border td:first-child{
+  border-right: 1px solid #eee;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before{
+  background-color:white;
+}
+.el-table th{
+  padding:4px!important;
+}
+
+.el-table__footer-wrapper, .el-table__header-wrapper{
+  border-radius:10px 10px 0 0 ;
+}
+.el-table--enable-row-transition .el-table__body td img{
+  width: 20px;
+}
+.el-table__footer-wrapper tbody{
+  td{
+    background-color: white;
+  }
+  td:first-child div{
+    text-align: left;
+    color:#736DFF;
+    font-weight: 550;
+    padding-left: 18px!important;
+  }
+
+}
+.el-table__row{
+  td:first-child{
+    padding-left: 6px;
+  }
+
+  td:first-child div{
+    text-align: left;
+    color:#736DFF;
+    font-weight: 550;
+    font-family: Roboto;
+    display: flex;
+    .idx{
+      width: 30px;
+      padding-left: 6px;
+    }
+    .coin-info{
+      display: flex;
+      align-items: center;
+      img{
+        margin-right: 10px;
+        width: 18px;
+      }
+    }
+  }
+  &:hover td:first-child{
+    padding-left: 0px;
+    border-left: 6px solid #736DFF;
+  }
+}
+.el-table--border, .el-table--group{
+  border-radius: 10px;
+}
+.el-table--scrollable-x ::-webkit-scrollbar{
+  height: 6px;
+}
+//dialog
+
+.el-dialog{
+  border-radius: 10px;
+  overflow: hidden;
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff!important;
+  .el-dialog__body{
+    overflow: hidden;
+    max-height: 480px;
+    background: #fff;
+    flex: 1;
+  }
+
+  .el-dialog__header{
+    background: linear-gradient(225deg,#7700ff, #ed6868);
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    overflow: hidden;
+    display: flex;
+    ::v-deep .el-dialog__headerbtn .el-dialog__close{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .el-dialog__close{
+      color:white;
+    }
+    .el-dialog__title{
+      position: relative;
+      color:white;
+    }
+  }
+}
+
+
+//submenu
+.el-submenu{
+  .el-submenu__icon-arrow{
+    display: none;
+  }
+  &.is-opened:not(:first-child){
+    .el-submenu__icon-arrow{
+      transform: rotateZ(0deg)!important;
+      display: block;
+    }
+
+    .el-submenu__title{
+      color:$menuHoverColor!important;
+      background-color: rgba(255,255,255,0.05)!important;
+      i{
+        color:$menuHoverColor!important;
+      }
+    }
+
+
+  }
+  .el-submenu__title{
+    padding-left: 16px!important;
+    margin-left: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px!important;
+    line-height: 40px!important;
+    margin-top: 10px;
+    &:hover{
+      color:$menuHoverColor!important;
+      background-color: $menuHover!important;
+      i{
+        color:$menuHoverColor!important;
+      }
+    }
+
+  }
+  .el-menu-item{
+    padding-left: 26px!important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+// 多选
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background: linear-gradient(225deg,#7700ff, #ed6868);
+  border-color: #c800ff;
+}

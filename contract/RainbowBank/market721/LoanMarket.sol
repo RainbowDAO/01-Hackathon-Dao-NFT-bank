@@ -89,6 +89,10 @@ contract LoanMarket {
         //Replace the zero address with the buyer's address
         list[id-1].lender=msg.sender;
     }
+    
+      function length() public view  returns (uint a){
+        a = list.length;
+    }
 
 
     function repayment(uint id,uint day,uint value)public{

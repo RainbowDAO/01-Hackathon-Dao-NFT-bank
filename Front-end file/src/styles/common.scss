@@ -1,0 +1,682 @@
+/***
+  * Public style class
+  * Push button
+  * Input box
+  * box
+  * shadow
+  * color
+  * Fixed structure (exchange box style)
+*/
+
+.button1,.buttonG {
+  background-image: linear-gradient(270deg,$purple, #ec0b6a)!important;
+  border: none!important;
+  color: white!important;
+  transition: 0.5s!important;
+  background-size: 100% auto!important;
+  border-radius: 8px!important;
+  padding: 8px 22px!important;
+  font-size: 12px!important;
+  &:hover {
+    background-position: right;
+    background-size: 200% auto!important;
+  }
+  &:focus {
+    background-size: 200% auto!important;
+  }
+}
+
+.button1.el-button.is-disabled{
+  opacity: 0.3;
+  background-image: linear-gradient(to right, #ed6868 0%, #7700FF 50%, #ed6868 100%);
+}
+.buttonG{
+  background-image: linear-gradient(90deg,#5ae3bb, #0b9fe1)!important;
+}
+
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover{
+  background-position: right ;
+}
+.button2{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+  }
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+  }
+}
+.button3{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+  color: #56119E;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
+.button-view{
+  font-size: 12px!important;
+  color: $purple!important;
+  background: rgba(165,25,187,0.10)!important;
+  border:  1px solid rgba(165,25,187,0.20)!important;
+  border-radius: 10px!important;
+  padding: 6px 22px!important;
+  transition: 0.5s;
+}
+.buttonD{
+  font-size: 12px!important;
+  background: #f9ecee!important;
+  border: 1px solid rgba(255,59,59,0.20)!important;
+  border-radius: 10px!important;
+  padding: 6px 22px!important;
+  transition: 0.5s;
+  color: #FF3B3B!important;
+}
+.buttonD:hover{
+  color: #ec0000 !important;
+  background: #fdd2d9 !important;
+}
+.button-view:hover{
+  background: rgba(165,25,187,0.20)!important;
+}
+//  输入框样式合集
+.input1 .el-input__inner {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border: none;
+  color: white;
+
+  &::-webkit-input-placeholder {
+    color: white;
+    padding-left: 6px;
+  }
+
+  &:focus {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+.input2 .el-input__inner {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  border: none;
+
+  &::-webkit-input-placeholder {
+
+    padding-left: 6px;
+  }
+
+  &:focus {
+    border: none;
+  }
+}
+
+//main-container全局样式
+.app-container {
+  padding: 20px;
+}
+
+.components-container {
+  margin: 30px 50px;
+  position: relative;
+}
+
+.pagination-container {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center
+}
+
+.sub-navbar {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  transition: 600ms ease position;
+  background: linear-gradient(90deg, rgba(32, 182, 249, 1) 0%, rgba(32, 182, 249, 1) 0%, rgba(33, 120, 241, 1) 100%, rgba(33, 120, 241, 1) 100%);
+
+  .subtitle {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  &.draft {
+    background: #d0d0d0;
+  }
+
+  &.deleted {
+    background: #d0d0d0;
+  }
+}
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(32, 160, 255);
+  }
+}
+
+.filter-container {
+  padding-bottom: 10px;
+
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+}
+
+//refine vue-multiselect plugin
+.multiselect {
+  line-height: 16px;
+}
+
+.multiselect--active {
+  z-index: 1000 !important;
+}
+//白板
+.r-panel{
+  width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 3px rgba(48,48,77,0.05);
+  padding: 30px 20px;
+}
+.r-border{
+  --borderWidth: 2px;
+  position: relative;
+  border-radius: calc(var(--borderWidth) * 2);
+  box-shadow: 0px 0px 10px 5px rgba(218,0,127,0.25);
+  &:after{
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(270deg, #874fff, #ed6868 100%);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+}
+// 阴影
+.r-shadow{
+  box-shadow: 0px 0px 16px 3px rgba(48,48,77,0.05);
+}
+.r-active-shadow{
+  box-shadow: 0px 0px 10px 5px rgb(179, 5, 150);
+}
+.r-active-shadow{
+  box-shadow: 0px 0px 10px 0px rgba(255,156,156,0.50);
+}
+.r-line{
+  width: 100%;
+  height: 2px;
+}
+.r-font-color{
+  background: linear-gradient(225deg,#7700ff, #ff3b3b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.r-font-color2{
+  background: linear-gradient(28deg,#eb3285 7%, #ffaf00 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.r-g-color{
+  color:$green;
+}
+.r-r-color{
+  color:#FF3B3B;
+}
+.r-p-color{
+  color:#D2277C;
+}
+.r-y-color{
+  color:#F7921B;
+}
+.r-grey-color{
+  color:#999;
+}
+.r-orange-color{
+  background: linear-gradient(0deg,#f15887, #fe9b86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-purple-color{
+  background: linear-gradient(0deg,#736dff, #a97fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-yellow-color{
+  background: linear-gradient(180deg,#f7c598, #ff8886);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-green2-color{
+  background: linear-gradient(180deg,#64e4ae, #46b787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-green-color{
+  background: linear-gradient(180deg,#44dec5, #4ebcfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-rainbow-color{
+  background:linear-gradient(270deg,#b1399f, #ec0b6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.r-bigger{
+  font-size: 20px;
+}
+.r-icon-box{
+  margin-left: 6px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background: #ffffff;
+  border: 1px solid #edeff7;
+  border-radius: 50%;
+  float: right;
+  box-shadow: 0px 6px 10px 0px rgba(48,48,77,0.08);
+}
+.rainCard {
+  margin: 20px auto;
+  width: 360px;
+  border-radius: 11px;
+  padding: 24px 16px;
+  border: 1px solid #ededed;
+  text-align: left;
+  box-shadow: 0px 30px 30px 3px rgba(156, 156, 156, 0.15);
+  .rainCard-header-info {
+    padding-bottom: 14px;
+    >div{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+    }
+    span{
+      font-weight: bold;
+    }
+    strong{
+      color: #d2277c;
+    }
+
+  }
+  .amount-info{
+    >div{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+  }
+  .show-card {
+    div {
+      text-align: left;
+      margin-top: 4px;
+    }
+    .wheel-list {
+      height: 340px;
+      border-radius: 10px;
+      padding: 60px 10px 10px;
+      display: block;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      .curRate-row{
+        //background: url("../assets/img/oval.png");
+        background-size: cover;
+        width: 102px;
+        height: 30px;
+        line-height: 24px;
+        text-align: center;
+        position: absolute;
+        .row-content{
+          text-align: center;
+          font-size: 12px;
+          zoom: 0.88;
+        }
+      }
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+
+      .wheel-item {
+        width: 310px;
+        height: 40px;
+        background: linear-gradient(270deg, rgba(119, 0, 255, 0.3), rgba(255, 59, 59, 0.4));
+        position: relative;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 40px;
+        padding: 0 10px;
+
+        .content{
+          position: relative;
+          z-index: 10;
+          display: flex;
+          justify-content: space-between;
+        }
+        &.active{
+          background: rgba(0, 0, 0, 0.05);
+          .content{
+            span{
+              color: white!important;
+            }
+          }
+        }
+        &.active.content{
+          background: rgba(0, 0, 0, 0.05);
+        }
+        &:last-child {
+          margin-top: 4px !important;
+          border-bottom-left-radius: 0!important;
+        }
+
+        .wheel-active-background {
+          border-radius: 5px;
+          position: absolute;
+          height: 40px;
+          margin: 0 0 0 -10px;
+          background:  linear-gradient(270deg,rgba(119,0,255,0.5), #7700ff 23%, #ed6868);
+          border-radius: 5px;
+        }
+      }
+      .wheel-item-bottom{
+        width: 290px;
+        height: 30px;
+        background: linear-gradient(270deg, rgba(119, 0, 255, 0.26), rgba(255, 59, 59, 0.3));
+        border-bottom-right-radius: 3px;
+        margin-top: 0;
+      }
+      .wheel-item-bottom:last-child{
+        width: 260px;
+        background: linear-gradient(270deg, rgba(119, 0, 255, 0.1), rgba(255, 59, 59, 0.2));
+        border-bottom-right-radius: 1px;
+      }
+    }
+  }
+  // 兑换样式
+  .exchange {
+    padding-top: 10px;
+
+    .part1, .part2 {
+      margin: 0 auto;
+      width: 326px;
+      height: 90px;
+      opacity: 1;
+      background: #f8f8f8;
+      border-radius: 10px;
+      box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.01);
+      padding: 10px;
+      border: 1px solid #eaeaea;
+      .floor1, .floor2, .floor2 div {
+        display: flex;
+        justify-content: space-between;
+      }
+      .floor1{
+        padding-bottom: 10px;
+      }
+      .floor2 {
+        align-items: center;
+        .coin{
+          font-weight: bold;
+          cursor: pointer;
+          width: 120px;
+          align-items: center;
+          justify-content: space-between;
+          line-height: 40px;
+          background: white;
+          border-radius: 5px;
+          padding: 0 16px;
+          margin-left: 10px;
+          img{
+            width: 26px;
+            height: 26px;
+          }
+        }
+        .input2.is-zero{
+          .el-input__inner{
+            color: #bbb;
+          }
+        }
+        .amount {
+          font-size: 24px;
+          color: #333;
+          max-width: 200px;
+          overflow: hidden;
+          &.is-zero{
+            color: #bbb;
+          }
+        }
+      }
+    }
+    .part1{
+      .button1{
+        width: 50px;
+        border-radius: 6px;
+        padding: 0;
+      }
+    }
+    > .button1 {
+      width: 100%;
+      height: 48px;
+      border-radius: 10px;
+      margin-top: 20px;
+      color: white;
+      margin-bottom: 8px;
+    }
+
+    .arrow {
+      width: 50px;
+      height: 50px;
+      background: #f8f8f8;
+      border: 1px solid #eaeaea;
+      border-radius: 50%;
+      line-height: 50px;
+      font-size: 16px;
+      text-align: center;
+      margin: 16px auto;
+    }
+
+    .input2 {
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 30px;
+      .el-input__inner {
+        padding-left: 4px;
+      }
+    }
+
+    .coin-choose {
+      font-weight: bold;
+      cursor: pointer;
+      width: 120px;
+      align-items: center;
+      justify-content: space-around;
+      line-height: 40px;
+      background: white;
+      border-radius: 5px;
+      padding: 0 16px;
+      margin-left: 10px;
+      img{
+        width: 26px;
+        height: 26px;
+      }
+    }
+
+
+    > span:nth-child(1) {
+      width: 38px;
+      height: 19px;
+      font-size: 16px;
+      font-family: Roboto, Roboto-Bold;
+      font-weight: 700;
+      line-height: 19px;
+    }
+
+  }
+  .intro-box{
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background: #fbfcff;
+    border: 1px solid #d7e1ff;
+    border-radius: 11px;
+  }
+}
+
+//带边框的header
+.rainbowPanel-header{
+
+  display: flex;
+  text-align: left;
+
+  .name{
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #333333;
+    width: 100%;
+  }
+
+  .left-border{
+    width: 4px;
+    height: 20px;
+    opacity: 1;
+    background: linear-gradient(270deg,#7700ff, #ff3b3b);
+  }
+}
+//  公示-彩色卡片
+.r-announcement{
+  flex-wrap: wrap;
+  padding: 20px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  .announcement-item{
+    .simplePanel{
+      .content{
+        padding-top: 10px;
+      }
+    }
+
+  }
+  .announcement-item:last-child{
+    margin-right: 0;
+  }
+}
+.r-intro-box{
+  margin-top: 10px;
+  background: #fbfcff;
+  border: 1px solid #d7e1ff;
+  border-radius: 11px;
+  padding: 10px 20px;
+  >div{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+// erc721代币样式
+.erc-info {
+  width: 60px;
+  height: 26px;
+  margin-left: 6px;
+  border: 1px solid #736dff;
+  border-radius: 6px;
+  color: #736DFF;
+  font-size: 12px;
+  padding: 2px 4px;
+}
+.erc-info-r {
+  border: 1px solid #D2277C!important;
+  color: #D2277C!important;
+}
+//兑换记录css
+.exchange-record{
+  max-height: 500px;
+  .exchange-record-header{
+
+    >div{
+      margin-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .coin-info{
+        display: flex;
+        align-items: center;
+        img{
+          margin-right: 10px;
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    .record-box{
+      display: contents;
+    }
+  }
+  .record{
+    width: 100%;
+    height: 120px;
+    padding: 10px 18px;
+    background: #ffffff;
+    margin-top: 20px;
+    &:first-child{
+      margin-top: 20px;
+    }
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px 0px rgba(48,48,77,0.08);
+    .record-time{
+      font-size: 12px;
+      font-family: Roboto, Roboto-Medium;
+      font-weight: 500;
+      text-align: left;
+      color: #999999;
+      padding: 4px 0;
+    }
+    .record-content{
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      >div{
+        >div{
+          margin-top: 6px;
+        }
+        >div:last-child{
+          height: 26px;
+          line-height: 26px;
+        }
+
+      }
+      .icon{
+        position: relative;
+        top: 4px;
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+}

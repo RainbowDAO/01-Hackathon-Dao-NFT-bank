@@ -1,32 +1,215 @@
-# 01-Hackathon-Dao-NFT-bank 
 
-## first of all ##
+# Submission for the DAO Global Hackathon 2021
 
-npm install 
 
-# 02-test-net-contract #
+### Project name
 
-test-network: Rinkeby
+Dao governance token lock bank and NFT incentive system
 
-## address ##
+### Team Name
 
-#### RBBANKORCHESTRATOR ####
+Rainbowcity Foundation
 
-0x1483b291ae93aAD586E9a24F4A261A26bE1115EF
+### Payment Address
 
-##### RAINBOW BANK #####
+0x140Db6C3947E1AC8645be81E86C619189cfd7621 (eth)
 
-0xBeF2d6e8b80cd54393B8882160f018a091B1f7A2
+### Submission links
 
-#### RBT ####
+- Website: http://nftbank.rainbowdao.io/
+- Hackathon: https://www.rainbowdao.io/Hackathon
+- GitHub repository :https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank
+- Smart contracts (GitHub): https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/contract
+- Frontend code (GitHub):https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/Front-end%20file
+- PIcture (GitHub): https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/pic
 
-0xBa5df090142F3c96fD6D3B0Bc4E3eDF8E3Ee15c2
+### Recorded video demo
 
-#### RBTDEPOSIT721 ####
 
-0x651E2CAbF30E533EC63afC9e7Bb5e06c65C27118
 
-#### loanMarket ####
+### Date when team began working on the project
 
-0xB5eAD70f38E83c47064ef4e606F7a60da9d9Dcc5
+- November 2021
+
+### contact   Person
+
+- RainbowKun
+- Email:  rainbowcitydao@gmail.com
+
+
+
+## Short pitch
+
+
+
+  - Solution: 
+
+
+
+Our system is mainly a governance token lock-up bank and NFT incentive system serving the DAO organization. The main function is to lock the governance tokens, and the corresponding NFT tokens can be rewarded according to the lock time and amount. 
+
+It is equivalent to depositing tokens in a bank, and the rewarded NFT is equivalent to a deposit certificate. According to the NFT deposit certificate, the corresponding governance token can be withdrawn after expiration.
+
+ At the same time, in order to allow deposit agents to obtain a certain degree of liquidity. We have also developed the mortgage loan market and the NFT transfer market for NFT deposit certificates. 
+
+The mortgage loan market can mortgage NFT deposit certificates and then borrow from the market. In the NFT transfer market, the corresponding NFT certificate can be transferred directly in the market to obtain liquidity funds.
+
+
+
+  - Pain: 
+
+Our product mainly solves two pain points:
+
+1. Lock the liquidity of governance tokens through lock-up bank, reduce the circulation of tokens in the secondary market, build a stronger community consensus, and stabilize the price of tokens;
+
+2. After the governance token is locked into the bank, the locker needs a certain amount of liquidity. He can choose to use the NFT deposit certificate for mortgage loans in the mortgage loan market, or directly perform NFT transfer in the transfer market. 
+
+Our NFT certificate here contains token deposit information, which belongs to the direct application of NFT in the financial field.
+
+
+
+  - Target audience: 
+
+
+The target audience of our product is mainly various DAO organizations that have issued governance tokens. Meet their needs for governance token management. Lock the liquidity of the governance tokens through the lock-up bank, and at the same time reward the NFT deposit certificate as the basis for lock-up.
+
+This product is suitable for all types of DAO organizations, whether it is a large DAO organization or a small DAO organization. Everyone can apply it to actual governance. And it is possible to formulate different lock-up policies at different stages and reward different NFT tokens. Its function is very practical for DAO organization.
+
+
+
+
+## Documentation on how to run the project
+
+
+
+- Smart contracts docs: https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/contract#readme
+
+- Frontend docs: https://github.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/tree/main/Front-end%20file#readme
+
+
+
+## Project social media: 
+
+
+Twitter:    https://twitter.com/RainbowcityDAO
+
+Discord     https://discord.gg/vbnvFEeYRr   
+
+Telegram: https://t.me/RainbowDAO
+
+Medium:   https://medium.com/rainbowcity
+
+Github:    https://github.com/RainbowDAO
+
+Email： Rainbowcitydao@gmail.com
+
+RainbowDAO website ：http://www.rainbowdao.io
+
+Rainbowcity website ：https://www.rainbowcity.io
+
+
+
+##  Product UI introduction
+
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/1.png)
+
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/2.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/3.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/4.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/5.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/6.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/7.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/8.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/9.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/10.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/11.png)
+
+
+
+
+
+
+
+![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/12.png)
+
+
+
+
 
