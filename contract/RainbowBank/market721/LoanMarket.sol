@@ -90,8 +90,8 @@ contract LoanMarket {
         list[id-1].lender=msg.sender;
     }
     
-      function length() public view  returns (uint a){
-        a = list.length;
+      function lengthToken() public view  returns (uint tokenLength){
+        tokenLength = list.length;
     }
 
 
