@@ -28,8 +28,7 @@ Rainbowcity Foundation
 https://youtu.be/COZ6B5rGLjw
 
 
-
-[![IMAGE ALT TEXT](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/1.png)](https://youtu.be/COZ6B5rGLjw "ColourBox")
+[![IMAGE ALT TEXT](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/202.png)](https://youtu.be/COZ6B5rGLjw "ColourBox")
 
 ### Date when team began working on the project
 
