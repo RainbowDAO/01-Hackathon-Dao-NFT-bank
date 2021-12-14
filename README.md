@@ -185,7 +185,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 1. Initialize the entire contract and set basic information. Set the management contract address.
 
 
 
@@ -194,8 +194,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
-
+### 2.RBD bank page, the RBD  token I own..
 
 
 
@@ -203,7 +202,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 3.Deposit RBD token into NFT bank.
 
 
 
@@ -211,7 +210,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 4.My loan information page. I can mortgage my NFT and then mortgage the loan.
 
 
 
@@ -219,7 +218,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 5.My loan order information.
 
 
 
@@ -227,14 +226,14 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 6.My loan order information.
 
 
 
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/6.png)
 
 
-
+### 7.I lent the order information to someone else.
 
 
 
@@ -242,7 +241,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/7.png)
 
 
-
+### 8.NFT token mortgage loan market.
 
 
 
@@ -250,7 +249,7 @@ Rainbowcity website ：https://www.rainbowcity.io
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/8.png)
 
 
-
+### 9.NFT token transfer trading market.
 
 
 
@@ -260,13 +259,13 @@ Rainbowcity website ：https://www.rainbowcity.io
 
 
 
-
+### 10.NFT token transfer trading market.
 
 
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/10.png)
 
 
-
+### 11.NFT token transfer trading market.
 
 
 
@@ -274,12 +273,16 @@ Rainbowcity website ：https://www.rainbowcity.io
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/11.png)
 
 
-
+### 12.NFT token transfer trading market.
 
 
 
 
 ![image](https://raw.githubusercontent.com/RainbowDAO/01-Hackathon-Dao-NFT-bank/main/pic/12.png)
+
+
+
+
 
 
 
