@@ -4,7 +4,7 @@ import "../interface/token721/IERC721Receiver.sol";
 import "../lib/TokenSet.sol";
 
     contract RbtDeposit721 {
-        using Set for Set.TokenIdSet;//set库
+        using Set for Set.TokenIdSet;
         
         string public name = "RBD";
         string public symbol = "RBD";
